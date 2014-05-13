@@ -1,26 +1,34 @@
 /**
- * Chris Allulis
- * THIS IS SO BAD
+ * Chris Farley
  */
 public class SomeLoops 
 {
     public static void main(String[] args)
     {
-        x is 0
-        while x is less than 1000
-        print "the current value of x is" x
-                
-                
-        y is 1
-        while y is less than 1000
-        if y % 3 equals 0 and y % 5 equals 0
-            print fizzbuzz
-                    else if y % 3 equals 0
-                        print fizz
-                                else if y % 5 equals 0
-                                    print buzz
-                                            else 
-                                                print y
+        for(int x = 0; x < 1000; x++)
+        {
+            System.out.println("The current value of x is " + X);
+        }       
+        
+        for(int y = 0; y < 1000; y++)
+        {
+            if(y%3 == 0 && y%5 == 0)
+            {
+                System.out.print("fizzbuzz");
+            }
+            else if(y%3 == 0)
+            {
+                System.out.print("fizz");
+            }
+            else if(y%5 == 0)
+            {
+                System.out.print("buzz");
+            }
+            else
+            {
+                System.out.print(y);
+            }
+        }
              
     }
 }
